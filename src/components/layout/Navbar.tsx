@@ -49,7 +49,7 @@ export default function Navbar() {
               alt="Energy DH"
               width={140}
               height={48}
-              className="h-10 w-auto object-contain opacity-90 group-hover:opacity-100 transition-opacity"
+              className="h-14 w-auto object-contain opacity-90 group-hover:opacity-100 transition-opacity"
               priority
             />
           </button>
