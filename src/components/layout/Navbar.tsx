@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { Menu, X } from 'lucide-react'
+import Image from 'next/image'
 
 const links = [
   { label: 'Quem Somos', href: '#quem-somos' },
@@ -40,22 +41,17 @@ export default function Navbar() {
           {/* Logo */}
           <button
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-            className="flex items-center gap-3 group"
+            className="flex items-center group"
             aria-label="Energy DH — início"
           >
-            <div className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-full bg-gradient-to-br from-burgundy to-teal flex items-center justify-center flex-shrink-0">
-                <span className="font-serif text-sm font-bold text-cream">E</span>
-              </div>
-              <div className="leading-none">
-                <div className="font-serif font-semibold text-cream text-lg tracking-wide group-hover:text-gold-bright transition-colors">
-                  Energy DH
-                </div>
-                <div className="text-2xs font-medium tracking-[0.15em] uppercase text-cream/40">
-                  Consultoria
-                </div>
-              </div>
-            </div>
+            <Image
+              src="/logo-energydh.png"
+              alt="Energy DH"
+              width={140}
+              height={48}
+              className="h-10 w-auto object-contain opacity-90 group-hover:opacity-100 transition-opacity"
+              priority
+            />
           </button>
 
           {/* Desktop links */}

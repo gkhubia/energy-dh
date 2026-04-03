@@ -119,7 +119,7 @@ export default function Hero() {
             animation: 'fadeUp 0.8s 0.1s ease both',
           }}
         >
-          Resultados reais começam com{' '}
+          Resultados consistentes começam com{' '}
           <span className="relative inline-block text-gold-bright">
             pessoas no lugar certo
             <span

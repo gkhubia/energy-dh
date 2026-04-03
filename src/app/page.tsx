@@ -6,6 +6,7 @@ import Servicos from '@/components/sections/Servicos'
 import EloEnergy from '@/components/sections/EloEnergy'
 import Metodologia from '@/components/sections/Metodologia'
 import Time from '@/components/sections/Time'
+import WhatsAppButton from '@/components/ui/WhatsAppButton'
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <Time />
       </main>
       <Footer />
+      <WhatsAppButton />
     </>
   )
 }
