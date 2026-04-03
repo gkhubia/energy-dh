@@ -1,7 +1,7 @@
 'use client'
 
 // Substitua pelo seu número real com DDI+DDD, ex: 5585999999999
-const WHATSAPP_NUMBER = '5585999999999'
+const WHATSAPP_NUMBER = '558585570484'
 const WHATSAPP_MESSAGE = 'Olá! Vim pelo site da Energy DH e gostaria de saber mais sobre os serviços.'
 
 export default function WhatsAppButton() {
